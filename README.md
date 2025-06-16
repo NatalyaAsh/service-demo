@@ -4,7 +4,7 @@
 
 Папка internal содержит пакеты:
   api: RESR API
-  config: конфигурациz
+  config: конфигурация
   database:
     pgsql: пакет для PostgreSQL. До сегодняшнего дня не использовала, но успела 
           реализовать основные методы: Select, Insert, Update.
