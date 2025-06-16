@@ -1,0 +1,31 @@
+app:
+  name: service-demo
+  version: "0.1.0"
+
+http:
+  host: localhost
+  port: 8080
+
+postgresql:
+  name: webdb
+  user: user
+  password: password
+  host: localhost
+  port: 5432
+
+redis:
+  addr: localhost:6379
+  password: password
+  user: user
+  db: 0
+  maxmetries: 5
+  dialtimeout: 10
+  timeout: 60
+  ttl: 60
+
+clh:
+  name: webdb
+  user: user
+  password: password
+  host: localhost
+  port: 8080
